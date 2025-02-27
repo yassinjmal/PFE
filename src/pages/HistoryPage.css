@@ -1,0 +1,44 @@
+/* Default (Light Mode) */
+.history-page {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px;
+  min-height: calc(100vh - 60px); /* Adjust based on your header/footer */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.history-page h2 {
+  margin-bottom: 20px;
+}
+
+.history-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history-page li {
+  background-color: #e2e8f0; /* Light gray */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.history-page li:hover {
+  background-color: #d1d5db; /* Slightly darker on hover */
+}
+
+/* Dark Mode Overrides */
+.dark-mode .history-page {
+  background-color: #1e1e1e; /* Dark background */
+  color: #fff;
+}
+
+.dark-mode .history-page li {
+  background-color: #444; /* Dark gray for list items */
+  color: #fff;
+}
+
+.dark-mode .history-page li:hover {
+  background-color: #555; /* Slightly lighter gray on hover */
+}

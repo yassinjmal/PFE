@@ -1,0 +1,27 @@
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Container for the clear chat button */
+.chat-controls {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px;
+}
+
+/* Style for the clear chat button */
+.clear-chat-btn {
+  background-color: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.clear-chat-btn:hover {
+  background-color: #b91c1c;
+}
